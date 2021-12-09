@@ -1,0 +1,25 @@
+/*Escribe un programa que simule un juego de azar. El usuario empieza con 20€ para apostar.
+Mediante un ventana de diálogo, se le pide al usuario que introduzca un número entre 1 y 6. A
+continuación, se le pide que introduzca la cantidad a apostar.
+Se “lanza” un dado (asignación al azar de un número del a 1 al 6 – Pista: Math.random()).
+Si el usuario acierta, duplica lo apostado. Si falla, pierde lo apostado.
+Seguirá jugando mientras disponga de crédito o alcance o supere un límite de crédito de 150 euros.
+Mostrar los mensajes/ventanas/alertas que consideres necesarios para jugar.
+*/
+var s=20;
+console.log("Tu casa de apuestas preferida");
+do{
+console.log("Saldo:"+s);
+var x=prompt(console.log("Introduce un numero(entre el 1 y el 6"));
+var c=prompt(console.log("Introduce cantidad apostar:"));
+function getRandomInt(minimo, maximo) {
+ return Math.floor(Math.random() * (maximo - minimo)) + minimo
+}
+console.log(getRandomInt(1,6));
+if(getRandomInt==x){
+console.log("Has ganado"+s);
+}else{
+s=s-c;
+console.log("Has perdido"+s);
+}
+}while(s<=0 && s>150);

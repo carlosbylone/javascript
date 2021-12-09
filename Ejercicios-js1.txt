@@ -1,0 +1,22 @@
+var x=prompt("Introduce un numero:");
+var n=prompt("Introduce un numero:");
+var m=prompt("introduce un numero:");
+ if(m>10 && n<10 && x <10){
+ alert("Hay un numero mayor que 10 y es "+m);
+ }
+ if(x>10 && n<10 && m<10){
+ alert("Hay un numero mayor que 10 y es "+x);
+ }
+ if(n>10 && m<10 && x<10){
+ alert("Hay un numero mayor que 10 y es "+n)
+ }
+ if(n>10 && m>10 && x<10){
+ alert("Hay un numero mayor que 10 y es "+n+" y "+m);
+ }
+ if(n>10 && x>10 && m<10){
+ alert("Hay un numero mayor que 10 y es "+n+" y "+x);
+ }
+ if(x>10 && m>10 && n<10){
+ alert("Hay un numero mayor que 10 y es "+x+" y "+m);
+ }
+ 

@@ -1,0 +1,7 @@
+var x=prompt(console.log("De que numero quieres la tabal de multiplicar? "))
+var y=prompt(console.log("Hasta que valor? "))
+
+for(var i=1; i<=y;i++){
+var multi=x*i;
+console.log(x+" * "+i+" = "+ multi);
+}

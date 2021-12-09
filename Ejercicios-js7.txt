@@ -1,0 +1,7 @@
+/*Escribe un programa que pida al usuario dos números decimales (base y altura de un rectángulo) y
+muestre por consola su perímetro calculado (valor decimal).
+
+*/
+var x=prompt(console.log("Introduce la base de un rectangulo :"))
+var y=prompt(console.log("Introduce la altura de un rectangulo:"))
+ console.log("El perimetro es "+(2*x+2*y));

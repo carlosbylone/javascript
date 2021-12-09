@@ -1,0 +1,15 @@
+/*Desarrolla una calculadora simple. El usuario introducirá la operación a realizar: +, -, *, / y a
+continuación dos números. El resultado se mostrará al usuario mediante un mensaje por consola.
+*/
+var x=prompt(console.log("Introduce un numero:"))
+var y=prompt(console.log("Introduce un numero:"))
+var s=prompt(console.log("Introduce simbolo(+,-,/,*)"));
+if(s=='+'){
+console.log(x+y);
+}else if(s=='-'){
+console.log(x-y);
+}else if(s=='/'){
+console.log(x/y);
+}else if(s=='*'){
+console.log(x*y);
+}

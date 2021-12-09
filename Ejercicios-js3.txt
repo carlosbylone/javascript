@@ -1,0 +1,10 @@
+var i;
+do{
+var n=prompt(console.log("Introduce un numero"));
+}while(n<2);
+
+for(i=2;i<=n;i++){
+if(i%2==0){
+console.log(i)
+}
+}

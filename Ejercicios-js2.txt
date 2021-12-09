@@ -1,0 +1,12 @@
+var sueldo = prompt(console.log("Introduce tu sueldo: "));
+    var antiguedad = prompt(console.log("Introduce cuantos años llevas: "));
+
+    if (sueldo < 1600) {
+      if (antiguedad >= 10) {
+        console.log("el sueldo se duplica " + sueldo * 2)
+      } else if (antiguedad < 10) {
+        console.log("El sueldo es " + sueldo * 1.5);
+      }
+    } else if(sueldo>=1600){
+      console.log("el sueldo es: " + sueldo);
+    }
