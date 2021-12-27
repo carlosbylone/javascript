@@ -1,0 +1,18 @@
+Realiza una función que muestre por consola las cadenas de texto (1 línea distinta por cada
+elemento (o cadena) del array) contenidas en un array global cada 2 segundos (utiliza setInterval
+para llamar a la función implementada).
+var cadenas = [“Buenos días”,“hola”,“estoy en clase de entornos de desarrollo”,“UD3”,“ejercicios
+javascript”,“objetos predefinidos y funciones”];
+setInterval(MuestraCadenas, 2000);
+function MuestraCadenas() {
+ …..
+}
+
+var cadenas = ['Buenos días','hola','estoy en clase de entornos de desarrollo','UD3','ejercicios','javascript','objetos predefinidos y funciones'];
+setInterval(MuestraCadenas, 2000);
+function MuestraCadenas() {
+for (let i=0;i!=cadenas.length;i++)
+ {
+ console.log(cadenas[i]);
+ }
+}

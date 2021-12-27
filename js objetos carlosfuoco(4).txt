@@ -1,0 +1,51 @@
+Realiza una función calcular que dada un lista de argumentos, por ejemplo:
+calcular(1, 123, 500, 115, 44, 88);
+Imprima por consola, la suma total, la media, el mayor y el menor de los números pasados por
+argumento.
+Suma: 871
+Media: 145,16
+Mayor: 500
+Menor: 1
+
+var n=prompt("Introduce un numero entero:");
+var m=prompt("Introduce un numero entero:");
+var b=prompt("Introduce un numero entero:");
+var v=prompt("Introduce un numero entero:");
+var c=prompt("Introduce un numero entero:");
+var x=prompt("Introduce un numero entero:");
+var suma= n+ m+ b + v + c +x;
+var media=(n+ m+ b + v + c +x)/6;
+console.log("La suma de estos numeros es "+suma);
+console.log("La media es "+media);
+if(n>m && n>b && n>c && n>x && n>v){
+console.log("El numero mayor es "+n);
+}else if(m>n && m>b && m>c && m>x && m>v){
+console.log("El numero mayor es "+m);
+}else if(b>n && b>m && b>c && b>x && b>v){
+console.log("El numero mayor es "+b);
+}else if(v>n && v>b && v>c && v>x && v>m){
+console.log("El numero mayor es "+v);
+}else if(x>n && x>b && x>c && x>m && x>v){
+console.log("El numero mayor es "+x);
+}else if(c>n && c>b && c>m && c>x && c>v){
+console.log("El numero mayor es "+c);
+}
+if(n<m && n<b && n<c && n<x && n<v){
+console.log("El numero menor es "+n);
+}
+if(m<n && m<b && m<c && m<x && m<v){
+console.log("El numero menor es "+m);
+}
+
+if(x<m && x<b && x<c && x<n && x<v){
+console.log("El numero menor es "+x);
+}
+if(c<m && c<b && c<n && c<x && c<v){
+console.log("El numero menor es "+c);
+}
+if(v<m && v<b && v<c && v<x && v<n){
+console.log("El numero menor es "+v);
+}
+if(b<m && b<n && b<c && b<x && b<v){
+console.log("El numero menor es "+b);
+}
